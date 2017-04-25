@@ -1,0 +1,21 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+AD2pol.c:
+  3. Apr 2017  13:59
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ======== ======== ===***** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 19 bytes (19 local), 237 bytes free
+Warning AD2pol.c 70: Duplicate inline multiplication (math library may save code, option -wi removes warning)
+ Optimizing - removed 13 instructions (-3 %)
+ File 'AD2pol.asm'
+ File 'AD2pol.occ'
+ File 'AD2pol.hex'
+ Codepage 0 has  382 word(s) :  18 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 382 code words (9 %)
+ * Estimated CODE SIZE of full optimization: 297 code words (-22 %)

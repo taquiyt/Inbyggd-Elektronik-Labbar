@@ -1,0 +1,19 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+comparator.c:
+ 21. Apr 2017  13:34
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ******** ******** ******** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 0 bytes (0 local), 256 bytes free
+ Optimizing - removed 0 instructions (-0 %)
+ File 'comparator.asm'
+ File 'comparator.occ'
+ File 'comparator.hex'
+ Codepage 0 has   21 word(s) :   1 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 21 code words (0 %)

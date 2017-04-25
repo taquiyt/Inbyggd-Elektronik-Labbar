@@ -1,0 +1,25 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+rpg_bb.c:
+ 31. Mar 2017  14:20
+ Chip = 16F690
+Warning rpg_bb.c 240: Local variables and parameters in uncalled functions are not allocated (5)
+ (The application contains non-library functions that are not called. Local
+ variables in these functions (option -wU) are not allocated to save space)
+ RAM : -------- -------- -------- -------- ======== ======** ******** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 14 bytes (14 local), 242 bytes free
+Warning rpg_bb.c 191: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning rpg_bb.c 193: Duplicate inline division (math library may save code, option -wi removes warning)
+ Optimizing - removed 13 instructions (-3 %)
+ File 'rpg_bb.asm'
+ File 'rpg_bb.occ'
+ File 'rpg_bb.hex'
+ Codepage 0 has  390 word(s) :  19 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 390 code words (9 %)
+ * Estimated CODE SIZE of full optimization: 309 code words (-20 %)

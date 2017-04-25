@@ -1,0 +1,20 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+comp_value.c:
+ 21. Apr 2017  13:45
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ======== ======== ===***** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 19 bytes (19 local), 237 bytes free
+ Optimizing - removed 12 instructions (-3 %)
+ File 'comp_value.asm'
+ File 'comp_value.occ'
+ File 'comp_value.hex'
+ Codepage 0 has  318 word(s) :  15 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 318 code words (7 %)
+ * Estimated CODE SIZE of full optimization: 246 code words (-22 %)

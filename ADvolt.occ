@@ -1,0 +1,20 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+ADvolt.c:
+  3. Apr 2017  15:26
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ======== ======== ===***** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 19 bytes (19 local), 237 bytes free
+ Optimizing - removed 11 instructions (-3 %)
+ File 'ADvolt.asm'
+ File 'ADvolt.occ'
+ File 'ADvolt.hex'
+ Codepage 0 has  323 word(s) :  15 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 323 code words (7 %)
+ * Estimated CODE SIZE of full optimization: 247 code words (-23 %)

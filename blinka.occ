@@ -1,0 +1,20 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+blinka.c:
+ 23. Mar 2017  10:13
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ==****** ******** ******** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 2 bytes (2 local), 254 bytes free
+ Optimizing - removed 3 instructions (-7 %)
+ File 'blinka.asm'
+ File 'blinka.occ'
+ File 'blinka.hex'
+ Codepage 0 has   37 word(s) :   1 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 37 code words (0 %)
+ * Estimated CODE SIZE of full optimization: 27 code words (-27 %)

@@ -1,0 +1,22 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+rpg_interrupt_bb.c:
+ 31. Mar 2017  14:55
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ======== =====..* ******** ********
+  40h: ******** ******** ******** ******** ******** ******** =******* ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 16 bytes (14 local), 240 bytes free
+Warning rpg_interrupt_bb.c 155: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning rpg_interrupt_bb.c 157: Duplicate inline division (math library may save code, option -wi removes warning)
+ Optimizing - removed 9 instructions (-2 %)
+ File 'rpg_interrupt_bb.asm'
+ File 'rpg_interrupt_bb.occ'
+ File 'rpg_interrupt_bb.hex'
+ Codepage 0 has  373 word(s) :  18 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 373 code words (9 %)
+ * Estimated CODE SIZE of full optimization: 288 code words (-22 %)

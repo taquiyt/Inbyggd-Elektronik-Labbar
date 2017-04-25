@@ -1,0 +1,14 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+test4.asm:
+ 23. Mar 2017  12:26
+
+
+; CC5X Version 3.4H, Copyright (c) B Knudsen Data
+^------
+Error test4.asm 2: Syntax error (or limitation)
+ (CC5X is unable to compile the expression due to syntax error or
+ limited C support. Code correction is required. Check also for
+ unbalanced block delimiters '{ .. }' in previous statements)
+
+Error options: -ew: no warning details  -ed: no error details  -eL: list details

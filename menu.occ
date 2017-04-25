@@ -1,0 +1,25 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+menu.c:
+ 31. Mar 2017  15:37
+ Chip = 16F690
+Warning menu.c 318: Local variables and parameters in uncalled functions are not allocated (1)
+ (The application contains non-library functions that are not called. Local
+ variables in these functions (option -wU) are not allocated to save space)
+ RAM : -------- -------- -------- -------- ======== ======== ==7.**** ********
+  40h: ******** ******** ******** ******** ******** ******** =******* ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 21 bytes (19 local), 235 bytes free
+Warning menu.c 237: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning menu.c 239: Duplicate inline division (math library may save code, option -wi removes warning)
+ Optimizing - removed 18 instructions (-2 %)
+ File 'menu.asm'
+ File 'menu.occ'
+ File 'menu.hex'
+ Codepage 0 has  707 word(s) :  34 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 707 code words (17 %)
+ * Estimated CODE SIZE of full optimization: 576 code words (-18 %)

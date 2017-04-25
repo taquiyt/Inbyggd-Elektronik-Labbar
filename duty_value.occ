@@ -1,0 +1,22 @@
+CC5X Version 3.4H, Copyright (c) B Knudsen Data, Norway 1992-2012
+ --> FREE edition, 8-16 bit int, 24 bit float, 32k code, reduced optim.
+duty_value.c:
+ 21. Apr 2017  14:02
+ Chip = 16F690
+ RAM : -------- -------- -------- -------- ======== ======== ******** ********
+  40h: ******** ******** ******** ******** ******** ******** ******** ********
+  80h: -------- -------- -------- -------- ******** ******** ******** ********
+  C0h: ******** ******** ******** ******** ******** ******** -------- --------
+ 100h: -------- -------- -------- -------- ******** ******** ******** ********
+ 140h: ******** ******** ******** ******** ******** ******** -------- --------
+RAM usage: 16 bytes (16 local), 240 bytes free
+Warning duty_value.c 143: Duplicate inline division (math library may save code, option -wi removes warning)
+Warning duty_value.c 145: Duplicate inline division (math library may save code, option -wi removes warning)
+ Optimizing - removed 10 instructions (-2 %)
+ File 'duty_value.asm'
+ File 'duty_value.occ'
+ File 'duty_value.hex'
+ Codepage 0 has  444 word(s) :  21 %
+ Codepage 1 has    0 word(s) :   0 %
+Total of 444 code words (10 %)
+ * Estimated CODE SIZE of full optimization: 348 code words (-21 %)
